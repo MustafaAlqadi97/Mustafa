@@ -5,6 +5,12 @@
     scroll-behavior: smooth;
      
 }
+header {
+    background-color:#252f31;
+    width:100;
+    position:fixed;
+}
+
 body {
     height: 4000px;
 }
@@ -12,70 +18,37 @@ body {
 .container{
     width: 1170px;
     margin:  auto;
-}
-.header .slider {
-    background-image: url(white-ceramic-mug-and-saucer-685527.jpg);
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-color: #eeeeee;
-    height: 561px;
-}
-.header .slider .intro {
-    
-    padding-top: 200px;
-    padding-left: 650px;
-    text-align: center;
-    color: white;
-    
-}
-.header .slider .intro h2 {
-    margin: 0%;
-    font-size: 45px;
-    width: 490px;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-}
-.header .slider .intro button {
-    background: none;
-    margin: 40px 25px;
-    height: 40px;
-    width: 125px;
-    font-size: 17px;
-    border: 2px solid white;
-    padding: 7px 20px 10px 20px ;
-    color: white;
-}
-.header .navbar{
+
+.header .navigation{
     color: white;
     background-color: #252f31;
     overflow: hidden;
     
 }
-.header .navbar .container h2{text-transform: uppercase;float: left;}
+.header .navigation .container h2{text-transform: uppercase;float: left;}
 
-.header .navbar h2 span {color: #2ecc71;}
-.header .navbar h2 .q {
+.header .navigation h2 span {color: #2ecc71;}
+.header .navigation h2 .q {
     color: white;
     background-color:#4e5758;
     padding: 5px;
 }
-.header .navbar ul{
+.header .navigation ul{
     overflow: hidden;
     list-style: none;
     padding-left: 0px;
     float: right;
 }
-.header .navbar ul li{
+.header .navigation ul li{
     float: left;
     padding: 10px;
 }
-.header .navbar ul li a {
+.header .navigation ul li a {
     color: white;
     text-decoration: none;
 }
-.header .navbar ul li .active a,
-.header .navbar ul li a:hover{
+.header .navigation ul li .active a,
+.header .navigation ul li a:hover{
     color: #2ecc71;
 }
 
