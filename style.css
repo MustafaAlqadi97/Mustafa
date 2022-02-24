@@ -418,7 +418,7 @@ body {
     width: 5%;
     display: inline;
 }
-.footer .icon image {
+.footer .icon a image {
     max-width: 100%;
 }
 /* End Footer */
