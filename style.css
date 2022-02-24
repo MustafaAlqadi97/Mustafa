@@ -13,21 +13,22 @@ header {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    pading:10px 200px;
+    padding:10px 200px;
 }
 
 .logo {
     text-decoration:none;
     color: #3a6cf4;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size:1.1em;
+    font-weight: 700;
+    font-size:1.8em;
 }
 .navigation a {
     text-decoration:none;
     color: #3a6cf4;
-    font-weight: 700;
-    font-size:1.8em;
+    font-weight: 500;
+    font-size:1.1em;
+    padding-left:30px;
 }
 .navigation a:hover {
     color: #601cfc;
